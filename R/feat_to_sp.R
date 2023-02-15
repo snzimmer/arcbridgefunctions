@@ -12,6 +12,5 @@
 #'
 #'
 feat_to_sp<- function(infile){
-    arcgisbinding::arc.check_product()
     arcgisbinding::arc.data2sf((arcgisbinding::arc.select(arcgisbinding::arc.open(infile))))
 }
