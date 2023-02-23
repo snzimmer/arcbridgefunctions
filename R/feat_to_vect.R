@@ -11,5 +11,5 @@
 #'
 #'
 feat_to_vect<- function(infile){
-    terra::vect(arcgisbinding::arc.data2sf(arcgisbinding::arc.select(arcgisbinding::arc.open(infile),sr=arcgisbinding::arc.open(infile)@shapeinfo$WKID)))
+    terra::vect(arcgisbinding::arc.data2sf((arcgisbinding::arc.select(arcgisbinding::arc.open(infile)))))
 }
