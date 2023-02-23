@@ -12,5 +12,5 @@
 #'
 #'
 feat_to_sp<- function(infile){
-    arcgisbinding::arc.data2sf((arcgisbinding::arc.select(arcgisbinding::arc.open(infile))))
+    as(arcgisbinding::arc.data2sf((arcgisbinding::arc.select(arcgisbinding::arc.open(infile)))),"Spatial")
 }
