@@ -19,6 +19,7 @@ This function writes a terra SpatVect or sp object as an Arc feature,
 either as a standalone .shp or a feature in a .gdb.
 A new .gdb can also be made during this step.
 CRS information may be altered.
+This function will work for SpatVect objects or Spatial objects (spatial polygons/points data frames) and potentially other file types. If you contact me I can try to add support for more types.
 }
 \examples{
 save object as .shp:  write_vect("./desired_file_path/feature")
