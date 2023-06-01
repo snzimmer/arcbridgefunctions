@@ -1,4 +1,4 @@
-Package: ArcBridgeFunctions
+Package: arcbridgefunctions
 Type: Package
 Title: Functions I find helpful to use the R-ArcGIS Bridge
 Version: 0.1.0
