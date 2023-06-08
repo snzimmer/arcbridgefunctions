@@ -16,13 +16,13 @@
 #'
 #' @export
 #'
-write_to_feat<- function(infile,file_path){
+write_to_feat<- function(infile,file_path,...){
   arcgisbinding::arc.write(path = file_path,
                            if(class(infile)[1]=="SpatVector"){
                              data = as(infile, "Spatial")  # convert a SpatVect to a spdf for export
                            } else {
                              data=infile  # don't convert an spdf
                            },
-                           validate=T)
+                           validate=T, ...)
   
 }
