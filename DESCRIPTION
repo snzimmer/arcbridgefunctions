@@ -7,7 +7,7 @@ Maintainer: Scott Zimmer <scottnzimmer@gmail.com>
 Description: The R-ArcGIS Bridge thorugh the arcgisbinding package is a helpful tool to analyze and manipulate
     data from the ESRI environment and write data back to it. Data can be accessed from a geodatabase, and features can be
     written without the abbreviation of field names. However, the native functions from arcgisbinding do not neatly allow
-    spatial data to enter R in the same way is if they were loaded through the sp/raster/terra packages. Here are functions
+    spatial data to enter R as if they were loaded through the sp/raster/terra packages. Here are functions
     that I've found useful to work with data from the ESRI environment more seamlessly. Work in progress, 
     open to suggestions.
 License: No license
