@@ -9,7 +9,7 @@ write_to_feat(infile, file_path)
 \arguments{
 \item{infile}{SpatVect or sp object in your environment}
 
-\item{path}{Full file path where you want to save - either a folder for a .shp or a .gdb (can be new or existing), and the file name (no extension necessary)}
+\item{file_path}{Full file path where you want to save - either a folder for a .shp or a .gdb (can be new or existing), and the file name (no extension necessary)}
 }
 \value{
 The object will be saved where specified
