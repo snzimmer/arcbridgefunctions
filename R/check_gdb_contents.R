@@ -3,7 +3,7 @@
 #' This function simply takes a  path to a file geodatabase, and shows the contents of the it.
 #'
 #'
-#' @param path Full file path to an existing geodatabase (.gdb)
+#' @param file_path Full file path to an existing geodatabase (.gdb)
 #'
 #'
 #' @export
