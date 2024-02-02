@@ -2,7 +2,7 @@
 % Please edit documentation in R/check_gdb_contents.R
 \name{check_gdb_contents}
 \alias{check_gdb_contents}
-\title{Check the contents of a file geodatabase (.gdb) so features and rasters contained in it can be opened.}
+\title{Check the contents of a file geodatabase (.gdb)}
 \usage{
 check_gdb_contents(file_path)
 }
@@ -11,7 +11,7 @@ check_gdb_contents(file_path)
 }
 }
 \description{
-This function simply takes a  path to a file geodatabase, and shows the contents of the it.
+This function simply takes a path to a file geodatabase (.gdb), and shows the contents of it so features and rasters contained in it can be opened.
 }
 \examples{
 check_gdb_contents("./geodatabase_path.gdb")
