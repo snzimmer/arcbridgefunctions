@@ -9,7 +9,7 @@
 #' specifying "overwrite=T" as the final parameter in the function.
 #'
 #' @param infile SpatVect or sp object in your environment
-#' @param path Full file path where you want to save - either a folder for a .shp or a .gdb (can be new or existing), and the file name (no extension necessary)
+#' @param file_path Full file path where you want to save - either a folder for a .shp or a .gdb (can be new or existing), and the file name (no extension necessary)
 #'
 #'
 #' @return The object will be saved where specified
