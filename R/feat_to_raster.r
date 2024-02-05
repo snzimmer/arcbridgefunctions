@@ -6,7 +6,7 @@
 #'
 #' @param infile Path to the input raster
 #' @return A RasterLayer of the infile
-#' @examples my_rast<- feat_to_raster("./geodatabase_path/geodatabase.gdb/raster")
+#' @examples my_raster<- feat_to_raster("./geodatabase_path/geodatabase.gdb/raster")
 #' @export
 #'
 #'
