@@ -26,6 +26,7 @@ write_to_feat<- function(infile,file_path,...){
                            } else {
                              data=infile  # don't convert an spdf
                            },
+                           overwrite=T,
                            validate=T, ...)
   
 }
